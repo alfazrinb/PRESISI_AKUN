@@ -367,11 +367,11 @@ if (selected == 'Prediksi Risiko Akun'):
         
 
         if (prediksi_risiko[0] == 0):
-            prediksi = f'Akun terkait Pada Entitas tersebut Memiliki Risiko High, dan Strategi Pemeriksaan Mendalam'
+            prediksi = f'Akun terkait Pada Entitas tersebut Memiliki Risiko High, dan Strategi Pemeriksaan Terbatas'
         elif (prediksi_risiko[0] == 2):
-            prediksi = f'Akun Terakit Pada Entitas Tersebut Memiliki Risiko Low, '
+            prediksi = f'Akun Terakit Pada Entitas Tersebut Memiliki Risiko Low, dan Strategi Pemeriksaan Mendalam'
         else:
-            prediksi = f'Akun Terkait Pada Entitas Tersebut Memiliki Risiko Medium'
+            prediksi = f'Akun Terkait Pada Entitas Tersebut Memiliki Risiko Medium, dan Strategi Pemeriksaan Menengah'
         
     st.success(prediksi)
 
